@@ -5,7 +5,7 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-gem 'rails_12factor', group: :production
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.3'
 # Use postgresql as the database for Active Record
@@ -58,8 +58,3 @@ gem 'spree_auth_devise', '~> 3.2'
 gem 'spree_gateway', '~> 3.2'
 
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
-
-source 'https://rubygems.org'
-gem 'nokogiri'
-gem 'rack', '~> 2.0.1'
-gem 'rspec'
