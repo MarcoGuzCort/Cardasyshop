@@ -58,3 +58,8 @@ gem 'spree_auth_devise', '~> 3.2'
 gem 'spree_gateway', '~> 3.2'
 
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
+
+source 'https://rubygems.org'
+gem 'nokogiri'
+gem 'rack', '~> 2.0.1'
+gem 'rspec'
